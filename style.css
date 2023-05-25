@@ -36,14 +36,14 @@ form button {
 }
 
 form button {
-  color: #d88771;
+  color: hsl(290, 100%, 50%);
   background: white;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 form button:hover {
-  background: #d88771;
+  background: hsl(290, 100%, 50%);
   color: white;
 }
 
@@ -75,7 +75,7 @@ form button:hover {
 
 .trash-btn,
 .complete-btn {
-  background: #ff6f47;
+  background: hsl(0, 100%, 50%);
   color: white;
   border: none;
   padding: 0.8em;
@@ -126,8 +126,9 @@ select {
 }
 
 select {
-  color: #ff6f47;
+  color: hsl(290, 100%, 50%);
   width: 8em;
+  font-weight: 600;
   cursor: pointer;
   padding: 0.95em;
 }
@@ -137,7 +138,7 @@ select {
   content: "\25BC";
   /* coloca flecha dentro del select */
   position: absolute;
-  background: #ff6f47;
+  background: hsl(290, 100%, 50%);
   top: 0;
   right: 0;
   padding: 0.6em;
@@ -147,7 +148,7 @@ select {
 
 .select:hover::after {
   background: white;
-  color: #ff6f47;
+  color: hsl(290, 100%, 50%);
 }
 
 span {
