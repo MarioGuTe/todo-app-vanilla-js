@@ -12,16 +12,30 @@ body {
   );
   color: white;
   font-family: "Poppins", sans-serif;
-  min-height: 100vh;
+}
+
+body,
+html {
+  min-height: 100%;
 }
 
 header {
   font-size: 1rem;
 }
 
-header,
-form {
+header {
   min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,6 +60,8 @@ form button:hover {
   background: hsl(290, 100%, 50%);
   color: white;
 }
+
+/* todo section */
 
 .todo-container {
   display: flex;
