@@ -33,6 +33,7 @@ header {
 form {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .input-container {
@@ -174,5 +175,13 @@ span {
 @media (max-width: 600px) {
   .todo-list {
     min-width: 60%;
+  }
+
+  form input {
+    width: 80%;
+  }
+
+  .input-container {
+    justify-content: flex-end;
   }
 }
