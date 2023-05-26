@@ -32,7 +32,7 @@ header {
 
 form {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
 }
 
 .input-container {
@@ -70,7 +70,7 @@ form button:hover {
 }
 
 .todo-list {
-  min-width: 30%;
+  min-width: 35%;
   list-style: none;
 }
 
@@ -169,4 +169,10 @@ select {
 
 span {
   color: aliceblue;
+}
+
+@media (max-width: 600px) {
+  .todo-list {
+    min-width: 60%;
+  }
 }
